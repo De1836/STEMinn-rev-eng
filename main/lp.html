@@ -1,4 +1,44 @@
 <!DOCTYPE html>
+<style>
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+nav{
+    position: relative;
+    height: 40px; width: 75%;
+    border-radius: 10px;
+    display: flex;
+    background: #d2d2d2;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em; font-weight: 500;
+    color: rgb(68, 68, 68); text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0; left: 0;
+    width: 82px; height: 20px;
+    background: #7fb0ff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0;
+}
+</style>
 <html>
 <head>
     <meta charset="UTF-8">
