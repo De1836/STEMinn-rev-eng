@@ -12,3 +12,21 @@ nav{
     border-radius: 10px;
     display: flex;
 }
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em; font-weight: 500;
+    color: white; text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0; left: 0;
+    width: 98px; height: 100%;
+    background: #7fb0ff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
