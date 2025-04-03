@@ -1,32 +1,52 @@
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    }
+}
     
 nav{
     position: relative;
-    width: 475px;
-    height: 150px;
+    height: 40px; width: 475%;
     border-radius: 10px;
     display: flex;
+    background: #d2d2d2;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a{
     position: relative;
     display: inline-block;
     font-size: 1em; font-weight: 500;
-    color: white; text-decoration: none;
+    color: rgb(68, 68, 68); text-decoration: none;
     padding: 0 23px;
     z-index: 1;
 }
 
 nav span{
     position: absolute;
-    top: 0; left: 0;
-    width: 98px; height: 100%;
+    top: 0; left: 8%;
+    width: 70px; height: 40px;
     background: #7fb0ff;
     border-radius: 10px;
     transition: 0.5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 8%;
+}
+
+nav a:nth-child(2):hover~span{
+    left: 25.555%;
+}
+
+nav a:nth-child(3):hover~span{
+    left: 42%;
+}
+
+nav a:nth-child(4):hover~span{
+    left: 60%;
+}
+
+nav a:nth-child(5):hover~span{
+    left: 76.5%;
 }
