@@ -3,7 +3,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000000;
     }
     
 nav{
@@ -12,6 +11,4 @@ nav{
     height: 150px;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
