@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    height: 192px; width: 10px8;
+    height: 5%; width: 5%;
     cursor: pointer;
     margin-right: auto;
 }
@@ -64,7 +64,7 @@ header {
     color: #edf0f1;
     text-decoration: none;
     text-align: left;
-    margin: 2px 10%;
+    margin: 5% 10%;
 }
 
 .text a {
