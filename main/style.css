@@ -20,7 +20,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: #3b3d46;
 }
 
 .logo {
@@ -66,7 +65,7 @@ header {
     color: #f0f0f7;
     text-decoration: none;
     text-align: left;
-    margin: 5% 10%;
+    margin: 0px 10%;
 }
 
 .text a {
@@ -76,7 +75,7 @@ header {
     color: color(#5980e3);
     text-decoration: none;
     text-align: left;
-    margin: 2px 10%;
+    margin: 0px 10%;
 }
 
 .grey p {
@@ -86,5 +85,5 @@ header {
     font-size: 14px;
     text-decoration: none;
     text-align: left;
-    margin: 5% 10%;
+    margin: 0px 10%;
 }
