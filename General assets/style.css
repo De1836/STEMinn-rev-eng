@@ -108,7 +108,7 @@ a.bar2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
-    color: #acacb0;
+    color: #9f9fa8;
     text-decoration: none;
     text-align: left;
     margin: 0px 10%;
@@ -134,7 +134,7 @@ h2 {
     margin: 0px 10%;
 }
 
-img.overviewimg {
+img.img {
     width: 200px; height: auto;
     margin: 0px 10%;
 }
