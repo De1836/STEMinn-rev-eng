@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
 * {
@@ -58,7 +59,7 @@ header {
     background-color: rgba(0,136,169,0.8);
 }
 
-.text p {
+p.text {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -68,7 +69,7 @@ header {
     margin: 0px 10%;
 }
 
-.text a {
+a.text {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -78,7 +79,7 @@ header {
     margin: 0px 10%;
 }
 
-.grey p {
+p.grey {
     color: #9f9fa8;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
