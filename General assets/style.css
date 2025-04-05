@@ -59,6 +59,11 @@ header {
     background-color: rgba(0,136,169,0.8);
 }
 
+.text {
+    margin-left: 50px; 
+    margin-right: auto;
+}
+
 p.text {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
