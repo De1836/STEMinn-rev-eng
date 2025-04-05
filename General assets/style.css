@@ -89,6 +89,26 @@ p.grey {
     margin: 0px 10%;
 }
 
+a.bar1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #f0f0f7;
+    text-decoration: none;
+    text-align: left;
+    margin: 0px 10%;
+}
+
+a.bar2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #acacb0;
+    text-decoration: none;
+    text-align: left;
+    margin: 0px 10%;
+}
+
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
