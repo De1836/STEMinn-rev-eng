@@ -1,3 +1,4 @@
 document.getElementByClass("cta").addEventListener("click", () => {
-    alert("clicked");
+    let element = document.getElementByClass("cta");
+    element.textContent = "Clicked!";
 });
