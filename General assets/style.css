@@ -60,11 +60,6 @@ header {
 }
 
 .text {
-    margin-left: 50px; 
-    margin-right: auto;
-}
-
-p.text {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -74,17 +69,7 @@ p.text {
     margin: 0px 10%;
 }
 
-a.text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: color(#5980e3);
-    text-decoration: none;
-    text-align: left;
-    margin: 0px 10%;
-}
-
-p.grey {
+.grey {
     color: #9f9fa8;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -94,20 +79,11 @@ p.grey {
     margin: 0px 10%;
 }
 
-a.bar1 {
+.bar1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
     color: #f0f0f7;
-    text-decoration: none;
-    text-align: left;
-}
-
-a.bar2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: #9f9fa8;
     text-decoration: none;
     text-align: left;
 }
