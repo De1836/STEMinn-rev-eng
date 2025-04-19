@@ -136,3 +136,9 @@ h2 {
     margin-bottom: 10px;
     cursor: default;
 }
+
+.sidebar {
+  position: fixed;
+  top: 100px;    /* or 50% + translateY(-50%) */
+  left: 15px;
+}
