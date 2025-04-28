@@ -1,7 +1,7 @@
-function updateGreet() {
-    const clockElement = document.getElementById("clock");
+function updateClock() {
+    const clockElement = document.getElementById('clock');
     const now = new Date();
-    const hours = now.getHours().toString().padStart(2, "0");
-    const minutes = now.getMinutes().toString().padStart(2, "0");
-    clockElement.textContent = `${hours}:${minutes}`;
+    clockElement.textContent = now.toLocaleTimeString();
 }
+setInterval(updateClock, 1000);
+updateClock();
