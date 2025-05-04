@@ -27,68 +27,62 @@
 </body>
 
 <div class="text">
-    <div class="content-wrapper" id="casing">
-        <img src="../General assets/img-two/" class="img">
-        <div class="text-content">
-            <h3>Case</h3>
-            <p>
-                Lorem ipsum
-            </p>
-        </div>
-    </div>
-    <div class="content-wrapper" id="fan">
-        <img src="../General assets/img-two/" class="img">
-        <div class="text-content">
-            <h3>Fan</h3>
-            <p>
-                Lorem ipsum
-            </p>
-        </div>
-    </div>
     <div class="content-wrapper" id="pcb">
         <img src="../General assets/img-two/" class="img">
         <div class="text-content">
             <h3>PCB</h3>
-            <p>
-                This is the PCB of the graphics card. It is the main 
-                ciruit board that connects all the components together, 
-                which include the VRAM (video memory), the chip, the 
-                power socket for the fan and the sockets for the video 
-                cables. This PCB also has a socket to plug into the smotherboard 
-                and recive power from there. It is made of 
-            </p>
+            <ul>
+                <li>Board that all components are soldered onto</li>
+                <li>Video connectors, chip, VRAM, voltage regulators and other components soldered on, PCIe connector to mount onto motherboard</li>
+                <li>Made of FR4 (fiberglass material bonded with resin) and copper for the traces.</li>
+                <li>Eliminates need for most wires, easy to manufacure and solder things onto</li>
+                <li>High heat can damage the PCB, but automated soldering with a hot air gun minimizes this risk.</li>
+                <li>Measures 17.1 cm x 10 cm</li>
+            </ul>
         </div>
     </div>
     <div class="content-wrapper" id="fan">
         <img src="../General assets/img-two/" class="img">
         <div class="text-content">
             <h3>Fan</h3>
-            <p>
-                This is the fan of the graphics card. It cools 
-                down the heatsink, which conducts the heat away 
-                from the chip to prevent overheating. The heat 
-                from the heatsink is then removed by the fan. However, 
-                the fan is not the best solution. Although easy 
-                to implement, it is not the most efficient. Instead, 
-                a water cooling system is more efficient, as it uses 
-                a liquid coolant to transfer the heat away from the heatsink, 
-                which cools better than air cooling. Additionally, 
-                fans increase the rate that dust accumulates on the heatsink.
-            </p>
+            <ul>
+                <li>Two fans that cool down the heatsink</li>
+                <li>Made of copper and magnets, plastic</li>
+                <li>Simple, cheap and easy solution to cool heatsink</li>
+                <li>Not the best solution, and acceleates dust accumulation</li>
+                <li>A middle part ensures no contact between the magnet and coils, reducing wear and tear.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-wrapper" id="heatsink">
+        <img src="../General assets/img-two/" class="img">
+        <div class="text-content">
+            <h3>Heatsink</h3>
+            <ul>
+                <li>The heatsink is a large block made of thermally conductive material, in this case aluminum.</li>
+                <li>Fins on the heatsink increase surface area and the rate of heat transfer.</li>
+                <li>The heatsink conducts heat away from the chip and VRAM, the components generating the most heat.</li>
+                <li>Thermal paste connects the heatsink and chip, filling gaps and increasing heat transfer.</li>
+                <li>Thermal pads connect the VRAM to the heatsink instead of thermal paste.</li>
+                <li>The main heatsink is screwed onto the PCB and measures 8.3 cm x 16.1 cm x 1.6 cm.</li>
+                <li>A smaller heatsink is connected to smaller chips (e.g., voltage regulators, capacitors, or inductors) using thermal pads and expansion screws.</li>
+            </ul>
         </div>
     </div>
 </div>
 
 <aside style="margin-left: 5px;">
-    <a class="bar1" href="#casing">Casing</a> 
+    <a class="bar1" href="#pcb">PCB</a>
     <br>
     <a class="bar1" href="#fan">Fan</a>
-    <br>
-    <a class="bar1" href="#pcb">PCB</a>
     <br>
     <a class="bar1" href="#heatsink">Heatsink</a>
     <br>
     <a class="bar1" href="#chip">Chip</a>
+    <br>
+    <a class="bar1" href="#pad">Thermal pad</a>
+    <br>
+    <a class="bar1" href="#mount">Mounting bracket</a>
     <br>
 </aside>
 
