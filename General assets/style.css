@@ -127,7 +127,6 @@ h2 {
     box-sizing: border-box;
     gap: 20px; /* Add spacing between image and text */
     padding: 20px; /* Add padding for better spacing */
-    background-color: #2a2a2e; /* Optional: Add background color for better visibility */
     border-radius: 8px; /* Optional: Add rounded corners */
     margin-bottom: 20px; /* Add spacing between items */
 }
