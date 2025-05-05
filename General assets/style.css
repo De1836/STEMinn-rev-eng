@@ -60,7 +60,7 @@ header {
 }
 
 .text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #f0f0f7;
@@ -71,7 +71,7 @@ header {
 
 .grey {
     color: #9f9fa8;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
