@@ -16,16 +16,25 @@
 }
 
 header {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
 }
 
 .logo {
     height: 5%; width: 5%;
     cursor: pointer;
     margin-right: auto;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-bar {
+    display: flex;
 }
 
 .nav_links {
@@ -58,73 +67,64 @@ header {
     background-color: rgba(0,136,169,0.8);
 }
 
-.text {
-    font-family: "Helvetica", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: #f0f0f7;
-    text-decoration: none;
-    text-align: left;
-    margin: 0px 10%;
-}
-
-
-.grey {
-    color: #9f9fa8;
-    font-family: "Helvetica", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    text-decoration: none;
-    text-align: left;
-    margin: 0px 10%;
-}
-
-.bar1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: #f0f0f7;
-    text-decoration: none;
-    text-align: left;
-}
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    color: #f0f0f7;
-    text-decoration: none;
-    text-align: left;
-    margin: 0px 10%;
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #f0f0f7;
-    text-decoration: none;
-    text-align: left;
-    margin: 0px 10%;
-}
-
-.text-cont {
+.dropdown {
+    list-style: none;
     display: flex;
-    flex-direction: column; /* Stack rows vertically */
     gap: 20px;
 }
 
-.row {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    width: 100%;
+.dropdown > li {
+    position: relative;
 }
 
-.content-wrapper {
-    display: flex; /* Arrange image and text side by side */
-    flex-direction: row; /* Ensure horizontal alignment */
-    align-items: flex-start; /* Align items to the top */
-    width: 100%; /* Full width for each item */
+.dropdown > li > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown > li > a:hover {
+    background-color: #555; /* Highlight on hover */
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position below the parent item */
+    left: 0;
+    background-color: #444; /* Dropdown background */
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+    padding: 5px 20px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #555; /* Highlight on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.text {
+    font-family: "Helvetica", sans-serif;
     box-sizing: border-box;
     gap: 20px; /* Add spacing between image and text */
     padding: 20px; /* Add padding for better spacing */
