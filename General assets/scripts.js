@@ -1,7 +1,34 @@
-function updateClock() {
-    const clockElement = document.getElementById('clock');
-    const now = new Date();
-    clockElement.textContent = now.toLocaleTimeString();
-}
-setInterval(updateClock, 1000);
-updateClock();
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-container'); 
+const dropdown = document.querySelector('.dropdown > div');
+
+let menuOpen = false;
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('mega-menu-show');
+    if(menuOpen === false) {
+        menuBtn.innerHTML = `
+        <span class="material-symbols-outlined">close</span>
+        `;
+        menuOpen = true;
+    } else {
+        menuBtn.innerHTML = `
+        <span class="material-symbols-outlined">menu</span>
+        `;
+        menuOpen = false;
+    }
+});
+
+dropdowns.forEach(dropdown => {
+    dropdown.addEventListener('click', (e) => {
+        dropdown.nextElementSibling.classList.toggle('menu-show');
+        dropdown.lastElementChild.classList.toggle('icon-rotate');
+    });
+});
+
+subDropdowns.forEach(subDropdown => {
+    subDropdown.addEventListener('click', (e) => {
+    subDropdown.nextElementSibling.classList.toggle('sub-menu-show');
+    subDropdown.lastElementChild.classList.toggle('icon-rotated');
+    });
+});
