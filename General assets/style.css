@@ -156,6 +156,8 @@ button {
     }
 }
 
+/* for main content */
+
 .text p {
     font-family: Helvetica, sans-serif; font-size: 12px;
     color:white; 
@@ -164,4 +166,51 @@ button {
 .text a {
     font-family: Helvetica, sans-serif; font-size: 12px;
     color: rgb(160, 223, 255); 
+}
+
+/* General styling for content-wrapper */
+.content-wrapper {
+    display: flex; /* Align image and text side by side */
+    flex-direction: row; /* Horizontal alignment */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between image and text */
+    padding: 20px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Space between sections */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for the images */
+.img {
+    max-width: 150px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+
+/* Styling for the text content */
+.text-content {
+    flex: 1; /* Allow text to take up remaining space */
+    text-align: left; /* Align text to the left */
+}
+
+.text-content h3 {
+    font-size: 1.5em; /* Larger font size for headings */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #282828; /* Darker text color for contrast */
+}
+
+.text-content p {
+    font-size: 1em; /* Standard font size for paragraphs */
+    line-height: 1.6; /* Improve readability */
+    color: #555; /* Slightly lighter text color */
+}
+
+.text-content a {
+    font-size: 1em; /* Standard font size for paragraphs */
+    line-height: 1.6; /* Improve readability */
+    color: #999; /* Slightly lighter text color */
 }
