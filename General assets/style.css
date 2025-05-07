@@ -6,6 +6,11 @@
     background-color: #24252A;
 }
 
+.logo {
+    height: 100px; /* Adjust logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
 li, a, button {
     font-weight: 500;
     font-size: 16px;
@@ -69,6 +74,17 @@ button:hover {
 .text a {
     font-family: Helvetica, sans-serif; font-size: 12px;
     color: rgb(110, 207, 255); 
+}
+
+.text h3 {
+    font-size: 1.5em; /* Larger font size for headings */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #ffffff; /* Darker text color for contrast */
+}
+.text h1 {
+    font-size: 2em; /* Larger font size for headings */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #ffffff; /* Darker text color for contrast */
 }
 
 /* General styling for content-wrapper */
