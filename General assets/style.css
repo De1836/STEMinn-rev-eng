@@ -78,7 +78,7 @@ button {
     color: #9b9b9b;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
     .navbar {
         padding: 0 1.5em;
     }
@@ -177,9 +177,7 @@ button {
     gap: 20px; /* Space between image and text */
     padding: 20px; /* Add padding for spacing */
     margin-bottom: 20px; /* Space between sections */
-    background-color: #f9f9f9; /* Light background for contrast */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Styling for the images */
@@ -187,8 +185,6 @@ button {
     max-width: 150px; /* Set a fixed width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px; /* Optional: Rounded corners for images */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
-    transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
 
