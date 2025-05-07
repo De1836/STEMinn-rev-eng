@@ -82,7 +82,8 @@ button:hover {
     color: #ffffff; /* Darker text color for contrast */
 }
 .text h1 {
-    font-size: 2em; /* Larger font size for headings */
+    margin-left: 100px;
+    font-size: 50px; /* Larger font size for headings */
     margin-bottom: 10px; /* Space below the heading */
     color: #ffffff; /* Darker text color for contrast */
 }
