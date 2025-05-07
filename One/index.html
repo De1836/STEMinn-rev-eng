@@ -9,22 +9,81 @@
     <script src="../General assets/scripts.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="nav">
-    <header>
-        <img src="../General assets/logo.png" class="logo">
-        <nav>
-            <ul class="nav_links">
-                <li><a href="../homepage/index.html">Homepage</a></li>
-                <li><a href="../One/index.html">Item one</a></li>
-                <li><a href="../Two/index.html">Item two</a></li>
-                <li><a href="../Three/index.html">Item three</a></li>
-            </ul>
-        </nav>
-    <a class="cta" href="https://mail.google.com/mail/?view=cm&fs=1&to=s1100784@stamfordamerican.edu.hk" target="_blank">
-        <button>Contact</button>
+<nav class="navbar">
+    <a href="../homepage/index.html" class="brand">
+        <img src="../General assets/logo.png" style="height: 20px; width: auto;" alt="Logo">
     </a>
-    </header>
-</body>
+    <div class="mega-container">
+        <ul class="mega-menu">
+            <li class="dropdown">
+                <div>
+                    <span><a href="../One/index.html">Fan</a></span>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="../One/index.html#casing">Casing</a>
+                    </li>
+                    <li>
+                        <a href="../One/index.html#pcb">PCB</a>
+                    </li>
+                    <li>
+                        <a href="../One/index.html#fan">Fan</a>
+                    </li>
+                    <li>
+                        <a href="../One/index.html#button">Button</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <div>
+                    <span><a href="../Two/index.html">GPU</a></span>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="../Two/index.html#pcb">PCB</a>
+                    </li>
+                    <li>
+                        <a href="../Two/index.html#fan">Fan</a>
+                    </li>
+                    <li>
+                        <a href="../Two/index.html#heatsink">Heatsink</a>
+                    </li>
+                    <li>
+                        <a href="../Two/index.html#chip">Chip</a>
+                    </li>
+                    <li>
+                        <a href="../Two/index.html#thermal-pad">Thermal pad</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <div>
+                    <span><a href="../Three/index.html">Lamp</a></span>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="../Three/index.html#casing">Casing</a>
+                        <a href="../Three/index.html#battery">Battery</a>
+                        <a href="../Three/index.html#pcb1">PCB 1</a>
+                        <a href="../Three/index.html#pcb2">PCB 2</a>
+                        <a href="../Three/index.html#foam">Foam</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons">
+        <button class="btn">
+            <a href="https://mail.google.com/mail/?view=cm&to=s1100784@stamfordamerican.edu.hk" target="_blank" style="color: white; text-decoration: none;">Contact</a>
+        </button>
+        <button class="menu-btn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+    </div>
+</nav>
 
 <div class="text">
     <h1>Cheap handheld fan</h1>
@@ -43,7 +102,7 @@
         </div>
     </div>
     <div class="content-wrapper" id="PCB">
-        <img src="../General assets/img-one/pcb.jpg" class="img" alt="PCB">
+        <img src="../General assets/img-one/pcb.jpg" class="img" alt="pcb">
         <div class="text-content">
             <h3>PCB</h3>
             <ul>
@@ -56,7 +115,7 @@
         </div>
     </div>
     <div class="content-wrapper" id="fan">
-        <img src="../General assets/img-one/motor.jpg" class="img" alt="Fan">
+        <img src="../General assets/img-one/motor.jpg" class="img" alt="fan">
         <div class="text-content">
             <h3>Fan</h3>
             <ul>
@@ -69,7 +128,7 @@
         </div>
     </div>
     <div class="content-wrapper" id="button">
-        <img src="../General assets/img-one/fan.jpg" class="img" alt="Button">
+        <img src="../General assets/img-one/fan.jpg" class="img" alt="button">
         <div class="text-content">
             <h3>Button</h3>
             <ul>
