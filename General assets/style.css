@@ -17,37 +17,42 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
-}
-
-.logo {
-    cursor: pointer; height: 20px; width: auto;
+    padding: 10px 5%; /* Reduce padding for better spacing */
+    background-color: #24252A; /* Ensure consistent background */
 }
 
 .nav-links {
     list-style: none;
+    display: flex; /* Use flexbox for horizontal alignment */
+    gap: 20px; /* Add spacing between links */
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links li {
     display: inline-block;
-    padding: 0px 20px;
 }
 
 .nav-links li a {
-    transition: all 0.3s ease 0s;
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Ensure text is visible */
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-    color: #00A3FF;
+    color: #00A3FF; /* Add hover effect */
 }
 
 button {
-    padding: 9px 25px;
+    padding: 10px 20px; /* Adjust padding for better size */
     background-color: #40b9ff;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    color: #fff;
 }
 
 button:hover {
