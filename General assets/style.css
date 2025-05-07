@@ -1,172 +1,47 @@
-body {
-    background: #ccc;
-    font-family: sans-serif;
-}
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background: #ffffff !important;
+    background-color: #24252A;
 }
 
-ul {
-    list-style: none;
+.nav li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #fff;
-    z-index: 2;
-}
-
-.navbar,
-.buttons {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    padding: 30px 10%;
 }
 
-.brand {
-    font-weight: Bold;
-    font-size: 1.3em;
-}
-
-button {
-    border: none;
-    transition: 0.3s;
+.logo {
     cursor: pointer;
 }
 
-.btn {
-    font-size: 1.1em;
-    background: #428aff;
-    color: #fff; 
-    padding: 0.5em 1.3em;
-    border-radius: 8px;
+.nav-links {
+    list-style: none;
 }
 
-.btn:hover {
-    background: #3870db;
-}
-
-.menu-btn {
-    margin-left: 1em;
-    background: none;
+.nav-links li {
     display: inline-block;
-}
-
-.menu-btn span {
-    font-size: 2.3em;
-}
-
-.dropdown > div,
-.sub-dropdown > div {
-    cursor: pointer;
-}
-
-.dropdown .menu a:hover {
-    color: #9b9b9b;
-}
-
-@media screen and (min-width: 600px) {
-    .navbar {
-        padding: 0 1.5em;
-    }
-
-    .dropdown > div {
-        padding: 1.5em 1em;
-    }
-
-    .mega-menu {
-        display: flex;
-        justify-content: center;
-    }
-
-    .menu-btn {
-        display: none;
-    }
-
-    .menu {
-        background: #fff;
-        position: absolute;
-        top: 4.3em;
-        left: 0;
-        width: 100%;
-        padding: 0 2em;
-        overflow-y: scroll;
-        transition: 0.4s ease-in-out;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 2em;
-    }
-
-    .menu > li:first-child {
-        font-size: 1.1em;
-        font-weight: bold;
-        margin: 0;
-    }
-
-    .sub-dropdown > div span:first-child {
-        font-weight: bold;
-    }
-
-    .dropdown > div {
-        border-bottom: 3px #ff solid;
-        transition: 0.3s;
-    }
-    
-    .dropdown:hover > div {
-        border-color: #000;
-    }
-
-    .dropdown > div span:last-child,
-    .sub-dropdown > div {
-        display: none;
-    }
-
-    .menu::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    .menu::-webkit-scrollbar-thumb {
-        background: #888;
-    }
-
-    .menu::-webkit-scrollbar-thumb:hover {
-        background: #555;
-    }
-
-    .menu {
-        height: 0;
-    }
-
-    .dropdown:hover .menu {
-        height: 50vh;
-        padding: 2em;
-    }
+    padding: 0px 20px;
 }
 
 /* for main content */
 
 .text p {
     font-family: Helvetica, sans-serif; font-size: 12px;
-    color:rgb(0, 0, 0); 
+    color:rgb(187, 187, 187); 
 }
 
 .text a {
     font-family: Helvetica, sans-serif; font-size: 12px;
-    color: rgb(160, 223, 255); 
+    color: rgb(110, 207, 255); 
 }
 
 /* General styling for content-wrapper */
@@ -187,7 +62,6 @@ button {
     border-radius: 5px; /* Optional: Rounded corners for images */
 }
 
-
 /* Styling for the text content */
 .text-content {
     flex: 1; /* Allow text to take up remaining space */
@@ -197,17 +71,5 @@ button {
 .text-content h3 {
     font-size: 1.5em; /* Larger font size for headings */
     margin-bottom: 10px; /* Space below the heading */
-    color: #282828; /* Darker text color for contrast */
-}
-
-.text-content p {
-    font-size: 1em; /* Standard font size for paragraphs */
-    line-height: 1.6; /* Improve readability */
-    color: #555; /* Slightly lighter text color */
-}
-
-.text-content a {
-    font-size: 1em; /* Standard font size for paragraphs */
-    line-height: 1.6; /* Improve readability */
-    color: #999; /* Slightly lighter text color */
+    color: #ffffff; /* Darker text color for contrast */
 }
