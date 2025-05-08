@@ -103,7 +103,7 @@ button:hover {
 
 /* Styling for the images */
 .img {
-    max-width: 150px; /* Set a fixed width for the image */
+    max-width: 70px; /* Set a fixed width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px; /* Optional: Rounded corners for images */
 }
